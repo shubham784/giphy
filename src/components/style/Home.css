@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+.gifs{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gif{
+    padding: 2px 2px;
+}
+
+.loader{
+    color: blue;
+}
+
+.inputBlock{
+margin-left: 200px;;
+ display: flex;
+ width: 80%;
+}
+
+*:focus {
+    outline: none;
+  }
+  
+.input{
+    height: 51px;
+  margin: 40px 0px;
+  width: 80%;
+}
+
+
+input[placeholder] {
+    font-size: 27px;
+    padding-left: 30px;
+}
+
+.searchIcon{
+    height: 59px;
+    width: 55px;
+    background-image: linear-gradient(to top,purple, pink);
+    margin: 38.5px 0px;
+}
+
+.loader{
+    color: blue;
+}
+
+.page-block{
+    margin-bottom: 40px;
+}
